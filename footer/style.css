@@ -101,3 +101,71 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* footer css */
+.footer{
+ text-decoration-line: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  
+}
+
+.footer-content {
+  display: flex;
+  background: #1A1A1A;
+  /* padding-left:130px;
+  padding-right:130px; */
+  padding: 0 130px;
+  width: 100%;
+  height: 420px;
+  /* top: 2475px; */
+  justify-content: space-between;
+  
+  
+
+}
+.footer-title {
+font-family: "Londrina Solid";
+font-weight: 400;
+font-style: Regular;
+font-size: 50px;
+line-height: 50px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+color: #FFFFFF;
+width: 251;
+height: 100;
+left: 1px;
+opacity: 1;
+
+}
+.adres-liste {
+list-style: none;
+font-family: Barlow;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 32.4px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #FFFFFF; 
+
+}
+.adres-item{
+width: 306;
+height: 32.390625;
+top: 141.17px;
+
+}
+.adres-item-img {
+width: 28;
+height: 28;
+
+
+}
+.menu-list {
+  list-style: none;
+}

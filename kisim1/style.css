@@ -1,0 +1,144 @@
+
+
+/* 1.kısım  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display:flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 94px;
+    width: 100%;
+    padding: 26px;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 26px;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32.4px;
+    color: #292929;
+}
+
+nav a span {
+  padding-left: 16px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--beige);
+  gap: 11px;
+}  
+
+main a {
+  text-decoration: none;
+  padding: 25px;
+  border-radius: 50px;
+  background-color: white;
+  color: var(--red);
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../public/assets/iteration-2/cta/kart-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 531px;
+  height: 440px;
+  border-radius: 12px;
+}
+.side-card{
+  display: flex;
+  flex-direction: column;
+  width: 531px;
+  height: 440px;
+}
+
+.burger-card {
+  background-image: url(../public/assets/iteration-2/cta/kart-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 530px;
+  height: 210px; 
+  border-radius: 12px;
+} 
+
+.kurye-card {
+  background-image: url(../public/assets/iteration-2/cta/kart-3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 530px; 
+  height: 210px;
+  border-radius: 12px;
+}
+
+.main-card h2 {
+  font-family: "Quattrocento", serif;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 72px;
+  width: 288px;
+  color: white;
+}
+
+.main-card p {
+  font-family: "Barlow", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26.76px;
+  margin-top: 5.8px;
+  margin-bottom: 25px;
+}
+
+.cta-button{
+  background-color: white;
+  color:red;
+  border-radius: 10px;
+}
+.main-title,.subtitle{
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .large-card {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-card {
+        height: 400px;
+        background-size: 60%;
+    }
+
+    .side-card {
+        height: auto;
+    }
+
+}

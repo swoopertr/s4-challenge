@@ -101,3 +101,58 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* header */
+.header {
+  color:#CE2829;
+  text-align:center;
+  padding: 10px;
+}
+.hero img {
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color:#FFFFFF;
+  background-color: #CE2829;
+}
+.hero-text {
+  font-weight: bold;
+  color:white;
+  background-color: #CE2829;
+}
+.hero-tag {
+  color: #FDC913;
+  width: 324;
+  height: 46;
+  left: 131px;
+  opacity: 1;
+  font-family: "Satisfy";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44.27px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+} 
+.hero-tag h1 {
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  font-style: Light;
+  font-size: 86px;
+  line-height: 92px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color:#FFFFFF;
+}
+
+.hero-btn{
+  display: inline-block;
+  background:yellow;
+  color:black;
+  padding:18px;
+  border-radius:50px;
+  font-weight:normal;
+}
